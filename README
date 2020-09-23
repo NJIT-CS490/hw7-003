@@ -1,1 +1,7 @@
-TODO: Someone should probably replace this with something useful...
+CS490 Section 003 Homework 7
+
+Running the project
+1. pip install -r requirements.txt
+2. python main.py
+
+-TODO: Add more stuff
