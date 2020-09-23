@@ -27,3 +27,7 @@ img {
     height: 300px;
     width: 300px;
 }
+h2:hover {
+    color: blue;
+    font-style: italic;
+}
