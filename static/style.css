@@ -13,3 +13,11 @@ body {
     width:60%;
     height:100%;
 }
+.section{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: Impact;
+    color: red;
+    font-size: 40px;
+}
