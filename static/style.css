@@ -40,3 +40,8 @@ h2:hover {
     color: blue;
     font-style: italic;
 }
+
+.img{
+    height: 100%;
+    width: 100%;
+}
