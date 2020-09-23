@@ -3,6 +3,7 @@ html
     background-color:#abdbce;
 }
 body {
+    text-align: center;
     margin-left:auto;
     margin-right:auto;
     margin-top:0;
@@ -32,6 +33,10 @@ body {
 }
 
 img {
-    height: 450px;
-    width: 450px;
+    height: 300px;
+    width: 300px;
+}
+h2:hover {
+    color: blue;
+    font-style: italic;
 }
