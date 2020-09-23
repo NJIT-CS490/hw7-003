@@ -22,6 +22,15 @@ body {
     font-size: 40px;
 }
 
+.text-blue{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: Impact;
+    color: blue;
+    font-size: 40px;
+}
+
 img {
     height: 450px;
     width: 450px;
