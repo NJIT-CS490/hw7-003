@@ -1,7 +1,7 @@
-html
-{
+html {
     background-color:#abdbce;
 }
+
 body {
     text-align: center;
     margin-left:auto;
@@ -14,6 +14,7 @@ body {
     width:60%;
     height:100%;
 }
+
 .section{
     text-align: center;
     margin-left:auto;
@@ -36,6 +37,7 @@ img {
     height: 300px;
     width: 300px;
 }
+
 h2:hover {
     color: blue;
     font-style: italic;
