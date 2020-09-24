@@ -55,3 +55,22 @@ h2:hover {
 	padding: 10px 10px 10px 10px;
 	background-color: #878787;
 }
+
+.secret-box img {
+    width:50%;
+    height: auto;
+    visibility:hidden;
+}
+
+.secret-box:hover {
+    background: none;
+}
+
+.secret-box:hover img {
+    visibility:visible;
+}
+
+.secret-box {
+    background: black;
+    margin:20px;
+}
