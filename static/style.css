@@ -56,6 +56,7 @@ h2:hover {
 	background-color: #878787;
 }
 
+<<<<<<< HEAD
 .secret-box img {
     width:50%;
     height: auto;
@@ -74,3 +75,10 @@ h2:hover {
     background: black;
     margin:20px;
 }
+=======
+.cap {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+}
+>>>>>>> secret_text
