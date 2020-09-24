@@ -27,6 +27,10 @@ def index():
         random_index=random.randrange(0,len(picturelst)),
         commits=all_commits
     )
+
+@app.route('/secret')
+def secret():
+    return flask.render_template("secret.html")    
     
 app.run(
     port=int(os.getenv('PORT', 8080)),
