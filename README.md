@@ -19,7 +19,7 @@ Running the project
 1. pip install -r requirements.txt
 2. python main.
 
-Common Issuses:
+Common Issues:
 1. There is only one page
 
 Current Problems:
