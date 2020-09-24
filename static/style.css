@@ -92,3 +92,8 @@ h2:hover {
     background: black;
     margin:20px;
 }
+.cap {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+}
