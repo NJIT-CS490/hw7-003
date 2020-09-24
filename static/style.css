@@ -43,3 +43,8 @@ h2:hover {
     color: blue;
     font-style: italic;
 }
+
+
+.shadow{
+	text-shadow:1px 1px #a742f5;
+}
