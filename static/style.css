@@ -56,6 +56,24 @@ h2:hover {
 	background-color: #878787;
 }
 
+#box {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background-image: linear-gradient(#ff0000, #0b0ebf);
+  padding: 10px; 
+  width: 200px;
+  height: 75px;
+  margin: auto;
+}
+
+.align1{
+  text-align: left;
+}
+
+.align2{
+  vertical-align: middle;
+}
+
 .secret-box img {
     width:50%;
     height: auto;
@@ -73,4 +91,9 @@ h2:hover {
 .secret-box {
     background: black;
     margin:20px;
+}
+.cap {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
 }
