@@ -20,7 +20,7 @@ Running the project
 2. `python main.py`
 
 Common Issues:
-1. There is only one page
+1. None at the moment
 
 Current Problems:
 1. Currently none, will be updated as needed.
