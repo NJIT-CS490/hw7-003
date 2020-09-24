@@ -52,6 +52,8 @@ h2:hover {
 
 .shadow {
 	text-shadow:1px 1px #a742f5;
+	padding: 10px 10px 10px 10px;
+	background-color: #878787;
 }
 
 #box {
@@ -70,4 +72,23 @@ h2:hover {
 
 .align2{
   vertical-align: middle;
+}
+
+.secret-box img {
+    width:50%;
+    height: auto;
+    visibility:hidden;
+}
+
+.secret-box:hover {
+    background: none;
+}
+
+.secret-box:hover img {
+    visibility:visible;
+}
+
+.secret-box {
+    background: black;
+    margin:20px;
 }
