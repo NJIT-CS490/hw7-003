@@ -1,3 +1,51 @@
+<html>
+    <head>
+        <title>NJIT CS490 Section 003</title>
+        <link rel="stylesheet" href={{ url_for('static', filename='style.css') }} />
+    </head>
+    <body>
+        <h1 class="shadow">I'm proud of what we've created together!</h1>
+        <img class="square" src="{{ url_for('static',filename='scratch/'+pictures_lst[random_index]) }}"/>
+        <br>
+        <div class="section">
+            <h2>Section 003 is the best!</h2> 
+            <img class="square" src="/static/oldgregg.jpg"> <!-- ??? -->
+            <br>
+            <p>We pushed {{ commits | length }} commits so far!!</p>
+            <a class="text-blue"  href="https://www.youtube.com/watch?v=4duPBWzf46E" target="_blank" >TEAMWORK!!!!</a>
+        </div>
+       <div class="section">
+            <h2>Go Highlanders!</h2> 
+            <img src="/static/scratch/njitbanner.jpg">
+         </div> 
+         
+         
+         <div class="section">
+             
+             <h2> Why Do We Care?: </h2>
+             <ul>
+                 <li> $$$$$$ </li>
+             </ul>
+             
+             <a href="/secret">Click me to go to a secret page!</a>
+         </div>
+         <br>
+         <div id="box">
+             Follow Us on Social Media:
+             <p class="align1">
+                 <img class="align2 small_image" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"/> <a href="https://www.instagram.com/instanjit/?hl=en" target="_blank">Instagram</a>
+                 <br>
+                 <img class="align2 small_image" src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png"/> <a class="align2" href="https://twitter.com/NJIT" target="_blank">Twitter</a>                   
+             </p>
+             
+         </div>
+         
+    </body>
+</html>
+
+
+
+
 html {
    background: rgb(196,196,196);
    background: linear-gradient(90deg, rgba(196,196,196,1) 0%, rgba(9,25,89,1) 0%, rgba(134,134,134,1) 100%);
@@ -52,4 +100,27 @@ h2:hover {
 
 .shadow {
 	text-shadow:1px 1px #a742f5;
+}
+
+#box {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background-image: linear-gradient(#ff0000, #0b0ebf);
+  padding: 10px; 
+  width: 200px;
+  height: 75px;
+  margin: auto;
+}
+
+.align1{
+  text-align: left;
+}
+
+.align2{
+  vertical-align: middle;
+}
+
+.small_image {
+    height: 30%; 
+    width: 30%; 
 }
