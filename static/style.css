@@ -55,3 +55,9 @@ h2:hover {
 	padding: 10px 10px 10px 10px;
 	background-color: #878787;
 }
+
+.cap {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+}
