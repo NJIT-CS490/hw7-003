@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    cursor:url(cursor.cur),auto;
     text-align: center;
     margin: 0 auto;
     background-color:#050035;
