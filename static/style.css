@@ -107,3 +107,67 @@ h2:hover {
     font-size: 30px;
     color: green;
 }
+
+
+#loading-screen {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    width: 60%;
+    height: 100vh;
+    background: rgb(0,38,139);
+    background: linear-gradient(180deg, rgba(0,38,139,1) 0%, rgba(0,14,41,1) 40%, rgba(0,0,0,1) 60%, rgba(0,38,139,1) 100%);
+    animation: fade-out 1s both 4s;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;;
+    }
+}
+
+#loading-header {
+    animation: slide-through 5s both;
+}
+#loading-description {
+    animation: slide-through 5s both 0s reverse;
+}
+
+@keyframes slide-through {
+    0% {
+        transform: translateY(-100vh);
+    }
+    25% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+#loading-progress-bar-holder {
+    width: 60%;
+    height: 20px;
+    border: 3px solid white;
+}
+
+#loading-progress-bar {
+    background: rgb(0, 225, 255);
+    width: 100%;
+    height: 100%;
+    animation: fill-progress-bar 5s ease-in-out;
+}
+
+@keyframes fill-progress-bar {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
