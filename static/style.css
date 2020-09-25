@@ -100,3 +100,10 @@ h2:hover {
     font-family: Tahoma;
     font-size: 30px;
 }
+
+.goat-text {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+    color: green;
+}
