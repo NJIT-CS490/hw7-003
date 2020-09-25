@@ -4,6 +4,14 @@
         <link rel="stylesheet" href={{ url_for('static', filename='style.css') }} />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
+    <script>
+        window.onload=()=>{
+            setTimeout(()=>{
+                document.getElementById("loading-screen").remove()
+                },
+            5000);
+        }
+    </script>
     <body>
         <div id="loading-screen">
             <h1 id="loading-header">Are you ready for greatness? :P</h1>

@@ -171,3 +171,7 @@ h2:hover {
     0% { width: 0; }
     100% { width: 100%; }
   }
+
+.loaded {
+    display: none !important;
+}
