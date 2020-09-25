@@ -13,6 +13,8 @@ body {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     width:60%;
     background-image:url("/static/background_stars.gif");
+    font-size: 150%;
+    
 }
 
 
@@ -51,6 +53,7 @@ h2:hover {
 }
 
 .shadow {
+    text-align: center;
 	text-shadow:1px 1px #a742f5;
 	padding: 10px 10px 10px 10px;
 	background-color: #878787;

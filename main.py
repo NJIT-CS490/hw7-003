@@ -2,6 +2,8 @@ import flask
 import os
 import random
 import requests
+import datetime
+
 
 app = flask.Flask(__name__)
 picturelst=[
@@ -11,7 +13,9 @@ picturelst=[
 
 @app.route('/') # Python decorator
 def index():
+    x = datetime.datetime.now()
     
+    day=x.strftime("%B")
     page = 1
     all_commits = []
     commits = requests.get('https://api.github.com/repos/NJIT-CS490/hw7-003/commits?per_page=100&page=' + str(page)).json()
@@ -24,6 +28,7 @@ def index():
     return flask.render_template(
         "index.html",
         pictures_lst=picturelst,
+        today=day,
         random_index=random.randrange(0,len(picturelst)),
         commits=all_commits
     )
